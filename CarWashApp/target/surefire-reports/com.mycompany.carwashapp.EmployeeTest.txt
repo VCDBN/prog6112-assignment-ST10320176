@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.carwashapp.EmployeeTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec <<< FAILURE!
+com.mycompany.carwashapp.EmployeeTest.testConstructorFail()  Time elapsed: 0.02 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Bob Johnson> but was: <Alice Johnson>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.mycompany.carwashapp.EmployeeTest.testConstructorFail(EmployeeTest.java:67)
+
+com.mycompany.carwashapp.EmployeeTest.testCalculateSalaryFail()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <500.0> but was: <400.0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:993)
+	at com.mycompany.carwashapp.EmployeeTest.testCalculateSalaryFail(EmployeeTest.java:29)
+
+com.mycompany.carwashapp.EmployeeTest.testGetHourlyRateFail()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <20.0> but was: <15.0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:993)
+	at com.mycompany.carwashapp.EmployeeTest.testGetHourlyRateFail(EmployeeTest.java:41)
+
+com.mycompany.carwashapp.EmployeeTest.testGetHoursWorkedFail()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <40> but was: <45>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.mycompany.carwashapp.EmployeeTest.testGetHoursWorkedFail(EmployeeTest.java:53)
+
